@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body {
+	font: 14px/162% "微软雅黑",Arial,Helvetica,sans-serif;
+	color: #fff;
+	background: #eee;
+}
+ul li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+/* end css reset */
+h1.sitename {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #444;
+	font-size: 15px;
+	color: #fff;
+}
+/* end header */
+#wrapper {
+	width: 100%;
+}
+.upload-pic {
+	min-height: 100px;
+	background: #a7d1ea;
+	position: relative;
+}
+.upload-btn {
+	display: block;
+	width: 150px;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+.upload-btn:hover {
+    color: #a7d1ea;
+    background: #eee;
+}
+#container {
+	width: 90%;
+	margin: 10px auto 0;
+}
+.item {
+	float: left;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 1px 3px #bbb;
+	-webkit-box-shadow: 0 1px 3px #bbb;
+	-moz-box-shadow: 0 1px 3px #bbb;
+}
+/* end 图片流 */
+#upload {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px 0 30px;
+}
+#upload .input-left {
+	float: left;
+	text-align: right;
+	width: 140px;
+}
+#upload .input-right {
+	margin-left: 160px;
+}
+#upload .input-right input {
+    border-radius: 2px;
+    height: 18px;
+}
